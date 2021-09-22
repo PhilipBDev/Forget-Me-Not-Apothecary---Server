@@ -35,3 +35,8 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 // Router Setup
 app.use('/api/products', productRouter);
 app.use('/auth', userRouter);
+
+// api.fmn-apothecary.store Landing Page
+app.get('/', (req, res) => {
+  res.send("Welcome to Forget-Me-Not Apothecary's API!");
+});
