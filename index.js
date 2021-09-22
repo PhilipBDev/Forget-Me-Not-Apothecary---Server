@@ -18,7 +18,10 @@ app.use(express.json());
 // Cors + Cookie Parser
 app.use(
   cors({
-    origin: ['http://localhost:3000'],
+    origin: [
+      'http://localhost:3000',
+      'https://forget-me-not-apothecary.herokuapp.com/',
+    ],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization'],
     maxAge: 600,
