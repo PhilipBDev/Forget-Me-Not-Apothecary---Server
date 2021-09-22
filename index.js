@@ -24,7 +24,11 @@ app.use(
       'https://forget-me-not-apothecary.netlify.app/',
     ],
     credentials: true,
-    allowedHeaders: ['Content-Type', 'Authorization'],
+    allowedHeaders: [
+      'Content-Type',
+      'Authorization',
+      'Access-Control-Allow-Origin',
+    ],
     maxAge: 600,
   })
 );
