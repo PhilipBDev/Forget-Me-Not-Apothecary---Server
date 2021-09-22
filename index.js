@@ -1,6 +1,7 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const productRouter = require('./routers/productRouter');
+const userRouter = require('./routers/userRouter');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
@@ -20,7 +21,7 @@ app.use(
   cors({
     origin: [
       'http://localhost:3000',
-      'https://forget-me-not-apothecary.herokuapp.com/',
+      'https://forget-me-not-apothecary.netlify.app/',
     ],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization'],
@@ -36,4 +37,4 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
 // Router Setup
 app.use('/api/products', productRouter);
-app.use('/auth', require('./routers/userRouter'));
+app.use('/auth', userRouter);
