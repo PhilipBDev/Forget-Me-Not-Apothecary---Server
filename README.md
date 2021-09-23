@@ -1,6 +1,6 @@
   <h3 align="center">Forget-Me-Not Apothecary - Server</h3>
     <p align="center">
-<a href="https://github.com/PhilipBDev/Forget-Me-Not-Apothecary---Server">View Server Repository</a>
+<a href="https://github.com/PhilipBDev/Forget-Me-Not-Apothecary---Client">View Client Repository</a>
 </p>
 
 <p>
