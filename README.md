@@ -18,7 +18,7 @@ Due to the server running on a free tier of Heroku, please allow roughly 30 seco
 
 <p align="center">
   <a href="https://www.fmn-apothecary.store">
-    <img src="./preview.jpg">
+    <img src="./preview.png">
   </a>
 </p>
 
