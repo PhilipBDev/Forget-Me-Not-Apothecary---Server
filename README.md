@@ -55,7 +55,7 @@ Users can add items to cart, adjust the cart as needed (which automatically upda
 
 The user system is in place to see if I could make all prices discounted upon logging in to mimic a membership-oriented store. All prices get set to 10% lower (plus 1 cent to make it nicer to look at) upon registration or logging in.
 
-Trying to figure out how to connect Redux and Paypal Sandbox together was the most challenging part since I knew nothing about them going in. Anpther issue I faced was figuring out how to make the front end talk to the back end from Netlify to Heroku, which involved purchasing a domain name and routing both through Cloudflare.
+Trying to figure out how to connect Redux and Paypal Sandbox together was the most challenging part since I knew nothing about them going in. To be honest, I'd need a refresher if I were to use Redux again, but I've got the gist of it so it'll be much easier to figure out next time. Another issue I faced was figuring out how to make the front end talk to the back end from Netlify to Heroku, which involved purchasing a domain name and routing both through Cloudflare.
 
 ### Built With
 
