@@ -49,7 +49,7 @@ Due to the server running on a free tier of Heroku, please allow roughly 30 seco
 
 ## About The Project
 
-This fullstack application features a functional store environment that allows you to create an account and place an order through PayPal Sandbox.
+This fullstack application features a functional store environment that allows you to create an account and place an order through PayPal Sandbox (you will need a PayPal Sandbox account as well or the transaction will not go through). After completing the transaction, the website will take you to an order confirmed page then redirect you back to the home page with an empty cart.
 
 Users can add items to cart, adjust the cart as needed (which automatically updates the subtotal), go through the mock PayPal process, and upon completion of the order they will be directed to an order confirmed page that will automatically redirect the user back to the home page.
 
