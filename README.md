@@ -9,7 +9,7 @@ Due to the server running on a free tier of Heroku, please allow roughly 30 seco
 
   <p align="center">
     <br />
-    <a href="https://www.fmn-apothecary.store/">View Demo</a>
+    <a href="https://forget-me-not-apothecary.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/PhilipBDev/Forget-Me-Not-Apothecary---Server/issues">Report Bug</a>
     ·
@@ -17,7 +17,7 @@ Due to the server running on a free tier of Heroku, please allow roughly 30 seco
     </p>
 
 <p align="center">
-  <a href="https://www.fmn-apothecary.store">
+  <a href="https://forget-me-not-apothecary.netlify.app/">
     <img src="./preview.png">
   </a>
 </p>
