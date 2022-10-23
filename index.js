@@ -19,7 +19,7 @@ app.use(express.json());
 // Cors + Cookie Parser
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'https://www.fmn-apothecary.store'],
+    origin: ['http://localhost:3000', 'https://forget-me-not-apothecary.netlify.app/'],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization'],
     maxAge: 600,
